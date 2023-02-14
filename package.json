@@ -1,0 +1,24 @@
+{
+    "name": "quadlite-sass",
+    "version": "1.0.0",
+    "description": "Customize and build quadlite css",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "quad",
+      "lite",
+      "quadlite",
+      "bootstrap",
+      "tailwind",
+      "frontend",
+      "react",
+      "svelte",
+      "ui",
+      "css"
+    ],
+    "author": "Jainam P Doshi",
+    "license": "ISC"
+  }
+  

@@ -1,0 +1,123 @@
+$primary: #1e88e5;
+$secondary: #616161;
+$warning: #fdd835;
+$success: #4caf50;
+$danger: #e53935;
+$light: #fafafa;
+$dark: #424242;
+
+$primary-light: lighten($primary, 35%);
+$secondary-light: lighten($secondary, 35%);
+$warning-light: lighten($warning, 20%);
+$success-light: lighten($success, 35%);
+$danger-light: lighten($danger, 35%);
+
+$warning-text: #bf360c;
+
+.dimmed-text {
+    color: lighten($dark, 25%) !important;
+}
+
+.primary-text {
+    color: $primary !important;
+}
+
+.secondary-text {
+    color: $secondary !important;
+}
+
+.success-text {
+    color: $success !important;
+}
+
+.danger-text {
+    color: $danger !important;
+}
+
+.warning-text {
+    color: $warning-text !important;
+}
+
+.light-text {
+    color: $light !important;
+}
+
+.dark-text {
+    color: $dark !important;
+}
+
+.primary-bg {
+    background-color: $primary !important;
+}
+
+.secondary-bg {
+    background-color: $secondary !important;
+}
+
+.success-bg {
+    background-color: $success !important;
+}
+
+.danger-bg {
+    background-color: $danger !important;
+}
+
+.warning-bg {
+    background-color: $warning !important;
+}
+
+.light-bg {
+    background-color: $light !important;
+}
+
+.dark-bg {
+    background-color: $dark !important;
+}
+
+.primary-light-bg {
+    background-color: $primary-light !important;
+}
+
+.secondary-light-bg {
+    background-color: $secondary-light !important;
+}
+
+.success-light-bg {
+    background-color: $success-light !important;
+}
+
+.warning-light-bg {
+    background-color: $warning-light !important;
+}
+
+.danger-light-bg {
+    background-color: $danger-light !important;
+}
+
+.shadow-0 {
+	box-shadow: none !important;
+}
+
+.shadow-1 {
+	box-shadow: 0rem 0.05rem 0.25rem rgba($color: #424242, $alpha: 0.2) !important;
+}
+
+.shadow-2 {
+	box-shadow: 0rem 0.1rem 0.4rem rgba($color: #424242, $alpha: 0.2) !important;
+}
+
+.shadow-3 {
+	box-shadow: 0rem 0.15rem 0.65rem rgba($color: #424242, $alpha: 0.2) !important;
+}
+
+.shadow-4 {
+	box-shadow: 0rem 0.2rem 0.9rem rgba($color: #424242, $alpha: 0.2) !important;
+}
+
+.shadow-5 {
+	box-shadow: 0rem 0.25rem 1.15rem rgba($color: #424242, $alpha: 0.2) !important;
+}
+
+.shadow-6 {
+	box-shadow: 0rem 0.35rem 1.3rem rgba($color: #424242, $alpha: 0.2) !important;
+}

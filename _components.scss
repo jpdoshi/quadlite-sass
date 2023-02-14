@@ -1,0 +1,209 @@
+@import "colors";
+@import "sizes";
+
+form {
+    padding: $size-3;
+
+    label {
+        color: $dark;
+        line-height: 36px;
+    }
+
+    input, textarea, select, input[type=range], .progress {
+        width: $size-full;
+    }
+}
+
+input, textarea, select {
+	border: 1px solid #DDD;
+	font-size: 16px;
+	border-radius: $size-1;
+    background: transparent;
+    padding: 8px;
+    width: 240px;
+	transition: 0.33s all;
+}
+
+input:focus, textarea:focus, select:focus {
+	outline: none;
+	border-color: $primary !important;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+	height: 34px;
+	transform: translateX(8px);
+}
+input[type=number]::-webkit-outer-spin-button {
+	height: 34px;
+	transform: translateX(8px);
+}
+
+input[type=checkbox] {
+	height: 18px;
+	width: 18px;
+	margin: 0px 4px;
+	transform: translate(-3px, 3px);
+	appearance: none;
+	background-color: transparent;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=checkbox]:checked {
+	background-color: $primary;
+	border: 1px solid transparent;
+}
+
+input[type=checkbox]:checked::after {
+	height: 8px;
+	width: 4px;
+	transform: rotate(45deg);
+	top: 2px;
+	left: 5px;
+	position: absolute;
+	content: "";
+	border: solid $light;
+	border-width: 0px 2px 2px 0px;
+}
+
+.switch[type=checkbox] {
+	height: 24px;
+	width: 42px;
+	appearance: none;
+	background-color: #DDD;
+	border: 1px solid transparent;
+	border-radius: 2em;
+	cursor: pointer;
+}
+
+.switch[type=checkbox]::after {
+	height: 18px;
+	width: 18px;
+	top: 2px;
+	left: 2px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	content: "";
+}
+
+.switch[type=checkbox]:checked {
+	background-color: $primary;
+	border: 1px solid transparent;
+}
+
+.switch[type=checkbox]:checked::after {
+	height: 16px;
+	width: 16px;
+	top: 2px;
+	left: 20px;
+	position: absolute;
+	background-color: white;
+	border-radius: 50%;
+	content: "";
+}
+
+input[type=radio] {
+	height: 18px;
+	width: 18px;
+	margin: 0px 4px;
+	transform: translate(-3px, 3px);
+	appearance: none;
+	background-color: transparent;
+	border: 1px solid #DDD;
+	border-radius: calc($size-full / 2);
+	cursor: pointer;
+}
+
+input[type=radio]:checked {
+	background-color: $primary;
+	border: 1px solid transparent;
+}
+
+input[type=radio]:checked::after {
+	height: 9px;
+	width: 9px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	content: '';
+	background-color: $light;
+	border-radius: calc($size-full / 2);
+}
+
+input[type=range] {
+	padding: 0px;
+	appearance: none;
+	height: 8px;
+	width: 240px;
+	outline: none;
+	background-color: #EEE;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	appearance: none;
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+	background-color: $primary;
+	cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: $primary;
+  cursor: pointer;
+}
+
+.progress {
+	height: $size-3;
+	width: 240px;
+	background-color: #EEE;
+}
+
+:disabled {
+    opacity: 50%;
+    cursor: default;
+}
+
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1rem;
+    border-bottom: 1px solid #DDD;
+    text-align: center;
+}
+
+.striped-rows {
+    tr:nth-child(odd) {
+        background-color: #FAFAFA;
+    }
+
+    th, tr:nth-child(even) {
+        background-color: #FFF;
+    }
+}
+
+.striped-columns {
+    th:nth-child(odd), td:nth-child(odd) {
+        background-color: #FAFAFA;
+    }
+
+    th:nth-child(even), td:nth-child(even) {
+        background-color: #FFF;
+    }
+}
+
+.bordered-table {
+    th, td {
+        border: 1px solid #DDD;
+    }
+}

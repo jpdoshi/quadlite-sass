@@ -1,0 +1,219 @@
+@import "colors";
+
+.button {
+    font-size: 16px;
+    line-height: 30px;
+    padding-inline: 12px;
+    border-radius: 0.33rem;
+    color: $dark;
+    background-color: $light;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.33s all;
+}
+.button:hover { background-color: darken($light, 10%); }
+
+.button-xs {
+    font-size: 12px;
+    line-height: 20px;
+    padding-inline: 4px;
+}
+
+.button-s {
+    font-size: 14px;
+    line-height: 24px;
+    padding-inline: 6px;
+}
+
+.button-m {
+    font-size: 16px;
+    line-height: 30px;
+    padding-inline: 10px;
+}
+
+.button-l {
+    font-size: 18px;
+    line-height: 36px;
+    padding-inline: 14px;
+}
+
+.button-xl {
+    font-size: 22px;
+    line-height: 40px;
+    padding-inline: 18px;
+}
+
+.primary-button {
+    color: $light;
+    background-color: $primary;
+    border: 1px solid transparent;
+}
+
+.secondary-button {
+    color: $light;
+    background-color: $secondary;
+    border: 1px solid transparent;
+}
+
+.warning-button {
+    color: $warning-text;
+    background-color: $warning;
+    border: 1px solid transparent;
+}
+
+.success-button {
+    color: $light;
+    background-color: $success;
+    border: 1px solid transparent;
+}
+
+.danger-button {
+    color: $light;
+    background-color: $danger;
+    border: 1px solid transparent;
+}
+
+.dark-button {
+    color: $light;
+    background-color: $dark;
+    border: 1px solid transparent;
+}
+
+.light-button {
+    color: $dark;
+    background-color: $light;
+    border: 1px solid transparent;
+}
+
+.primary-outline-button {
+    color: $primary;
+    background-color: transparent;
+    border: 1px solid $primary;
+}
+
+.secondary-outline-button {
+    color: $secondary;
+    background-color: transparent;
+    border: 1px solid $secondary;
+}
+
+.warning-outline-button {
+    color: $warning;
+    background-color: transparent;
+    border: 1px solid $warning;
+}
+
+.success-outline-button {
+    color: $success;
+    background-color: transparent;
+    border: 1px solid $success;
+}
+
+.danger-outline-button {
+    color: $danger;
+    background-color: transparent;
+    border: 1px solid $danger;
+}
+
+.dark-outline-button {
+    color: $dark;
+    background-color: transparent;
+    border: 1px solid $dark;
+}
+
+.light-outline-button {
+    color: $light;
+    background-color: transparent;
+    border: 1px solid $light;
+}
+
+.primary-light-button {
+    color: $primary;
+    background-color: $primary-light;
+    border: 1px solid $primary;
+}
+
+.secondary-light-button {
+    color: $secondary;
+    background-color: $secondary-light;
+    border: 1px solid $secondary;
+}
+
+.warning-light-button {
+    color: $warning-text;
+    background-color: $warning-light;
+    border: 1px solid $warning;
+}
+
+.success-light-button {
+    color: $success;
+    background-color: $success-light;
+    border: 1px solid $success;
+}
+
+.danger-light-button {
+    color: $danger;
+    background-color: $danger-light;
+    border: 1px solid $danger;
+}
+
+.primary-button:hover { background-color: darken($primary, 5%); }
+.secondary-button:hover { background-color: darken($secondary, 5%); }
+.warning-button:hover {
+    color: $warning_text;
+    background-color: lighten($warning, 5%);
+}
+.danger-button:hover { background-color: darken($danger, 5%); }
+.success-button:hover { background-color: darken($success, 5%); }
+.dark-button:hover { background-color: lighten($dark, 5%); }
+
+.primary-outline-button:hover {
+    color: $light;
+    background-color: $primary;
+}
+.secondary-outline-button:hover {
+    color: $light;
+    background-color: $secondary;
+}
+.warning-outline-button:hover {
+    color: $warning-text;
+    background-color: $warning;
+}
+.danger-outline-button:hover {
+    color: $light;
+    background-color: $danger;
+}
+.success-outline-button:hover {
+    color: $light;
+    background-color: $success;
+}
+.dark-outline-button:hover {
+    color: $light;
+    background-color: $dark;
+}
+.light-outline-button:hover {
+    color: $dark;
+    background-color: $light;
+}
+
+.primary-light-button:hover {
+    color: $light;
+    background-color: $primary;
+}
+.secondary-light-button:hover {
+    color: $light;
+    background-color: $secondary;
+}
+.warning-light-button:hover {
+    color: $light;
+    background-color: $warning;
+}
+.danger-light-button:hover {
+    color: $light;
+    background-color: $danger;
+}
+
+.success-light-button:hover {
+    color: $light;
+    background-color: $success;
+}

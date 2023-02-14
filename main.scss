@@ -1,0 +1,16 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import "sizes";
+@import "spacing";
+@import "colors";
+@import "buttons";
+@import "components";
+@import "borders";
+@import "props";
+@import "layouts";
